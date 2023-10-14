@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+}
+
+#board{
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border: 5px solid grey;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border: 5px solid grey;
+
+    /* position: absolute;
+    top: calc(var(--y) * 90 + 5 + 5);
+    left: calc(var(--x) * 90 + 5 + 5); */
+
+    transition: transform 0.2s ease-in-out;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell{
+    width: 90px;
+    height: 90px;
+    background-color: lightblue;
+    border: 5px solid grey;
+}
