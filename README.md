@@ -58,7 +58,7 @@ Here is a list of tasks I'm working on to improve the 2048 game:
 | Write a README file             | Completed     | 20 Oct 2023 |
 | Add smooth animation            | In Progress   |             |
 | Add “Cancel Last Move” function | In Progress   |             |
-| Add “Menu” page                 | Not Started   |             |
+| Add “Main” page                 | Not Started   |             |
 | Add “Scores” page               | Not Started   |             |
 | Add “Settings” page             | Not Started   |             |
 
