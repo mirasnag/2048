@@ -1,50 +1,66 @@
-# 2048
+# 2048 Game Implementation
 
-Brief project description goes here.
+An implementation of the classic 2048 game.
 
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [To-Do List](#to-do-list)
 
 ## Features
 
-List the key features of your project here.
+List the key features of your 2048 game implementation here.
 
 ## Getting Started
 
-Provide instructions on how to get started with your project. This can include installation, setup, and configuration steps.
+To get started with the 2048 game, follow these simple steps:
+
+1. Clone or download the repository to your local machine:
+git clone https://github.com/mirasnag/2048.git
+2. Navigate to the project directory:
+cd 2048
+3. Open the `index.html` file in your web browser to start playing the game.
 
 ## Usage
 
-Provide examples and use cases for your project to help users understand how to utilize it effectively.
+Once you've opened the game, you can start playing right away. Here are the basic instructions for playing the 2048 game:
 
-## Contributing
+1. The game board consists of a grid of cells, and you start with two tiles, typically with a value of 2 or 4.
 
-We welcome contributions from the community. To contribute to this project, please follow these steps:
+2. Use the arrow keys (Up, Down, Left, Right) to move the tiles in the corresponding direction.
 
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with a descriptive message.
-4. Push your changes to your fork on GitHub.
-5. Submit a pull request to this repository's `main` branch.
+3. Tiles with the same value will merge into one tile when they collide. The goal is to reach the tile with a value of 2048.
 
-## License
+4. The game continues until you can't make any more moves.
 
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+5. Your score is based on the values of the tiles you've merged during the game.
 
+6. Have fun and challenge yourself to achieve the highest score and reach 2048!
+
+## Contacts
+
+If you have any questions or would like to get in touch, you can reach out to me via the following channels:
+
+- [LinkedIn](https://www.linkedin.com/in/miras-nagashbek-8250a7254)
+- Email: mirasnag@unist.ac.kr
+- [GitHub](https://github.com/mirasnag)
+  
 ## To-Do List
 
-Here is a list of tasks we're working on, and what needs to be done. If you'd like to contribute, please check this list and let us know if you can tackle any of these tasks:
+Here is a list of tasks I'm working on to improve the 2048 game:
 
-| Task                   | Status          |
-|------------------------|-----------------|
-| Task 1                 | In Progress     |
-| Task 2                 | Not Started     |
-| Task 3                 | Completed       |
+| Task                            | Status        | Date        |
+|---------------------------------|---------------|-------------|
+| Finish main functionality       | Completed     | 14 Oct 2023 |
+| Change design of Board          | Completed     | 20 Oct 2023 |
+| Write a README file             | Completed     | 20 Oct 2023 |
+| Add smooth animation            | In Progress   |             |
+| Add “Cancel Last Move” function | In Progress   |             |
+| Add “Menu” page                 | Not Started   |             |
+| Add “Scores” page               | Not Started   |             |
+| Add “Settings” page             | Not Started   |             |
 
-Feel free to open an issue or submit a pull request if you'd like to help with any of these tasks.
+
 
