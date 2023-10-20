@@ -2,6 +2,21 @@ var board, prevboard;
 var score = 0;
 var rows = 4;
 var cols = 4;
+const tileColors = {
+    0: "#ccc1b4",      // White
+    2: "#F5F5F5",    // Light gray
+    4: "#EDE0C8",    // Light brown
+    8: "#FF5722",    // Dark orange
+    16: "#E91E63",   // Dark pink
+    32: "#FF4081",   // Bright pink
+    64: "#9C27B0",   // Purple
+    128: "#673AB7",  // Deep purple
+    256: "#3F51B5",  // Indigo
+    512: "#03A9F4",  // Light blue
+    1024: "#06437a",  // Blue
+    2048: "#00BCD4"  // Cyan
+  };
+
 
 window.onload = function(){
     setGame();
@@ -32,10 +47,11 @@ function setGame(){
         }
     }
 
-    addTile();
-    addTile();
     prevboard = board.map((row) => row.slice());
+    addTile();
+    addTile();
 }
+
 
 // use after the board is updated
 function addTile(){
@@ -69,6 +85,7 @@ function updateTile(tile, num){
     if(num > 0){
         tile.innerText = num.toString();
     }
+    tile.style.setProperty("--tileColor", tileColors[num])
 }
 
 function updateBoard(){
