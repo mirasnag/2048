@@ -3,7 +3,7 @@ var score = 0;
 var rows = 4;
 var cols = 4;
 const tileColors = {
-    0: "#ccc1b4",      // White
+    0: "#ccc1b4",      // light grayish-brown
     2: "#F5F5F5",    // Light gray
     4: "#EDE0C8",    // Light brown
     8: "#FF5722",    // Dark orange
