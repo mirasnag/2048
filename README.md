@@ -5,8 +5,8 @@ An implementation of the classic 2048 game.
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [License](#license)
+- [Tutorial](#tutorial)
+- [Contacts](#contacts)
 - [To-Do List](#to-do-list)
 
 ## Features
@@ -23,7 +23,7 @@ git clone https://github.com/mirasnag/2048.git
 cd 2048
 3. Open the `2048.html` file in your web browser to start playing the game.
 
-## Usage
+## Tutorial
 
 Once you've opened the game, you can start playing right away. Here are the basic instructions for playing the 2048 game:
 
@@ -44,7 +44,7 @@ Once you've opened the game, you can start playing right away. Here are the basi
 If you have any questions or would like to get in touch, you can reach out to me via the following channels:
 
 - [LinkedIn](https://www.linkedin.com/in/miras-nagashbek-8250a7254)
-- Email: mirasnag@unist.ac.kr
+- mirasnag@unist.ac.kr
 - [GitHub](https://github.com/mirasnag)
   
 ## To-Do List
