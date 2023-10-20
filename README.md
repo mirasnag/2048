@@ -21,7 +21,7 @@ To get started with the 2048 game, follow these simple steps:
 git clone https://github.com/mirasnag/2048.git
 2. Navigate to the project directory:
 cd 2048
-3. Open the `index.html` file in your web browser to start playing the game.
+3. Open the `2048.html` file in your web browser to start playing the game.
 
 ## Usage
 
