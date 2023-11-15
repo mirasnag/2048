@@ -3,15 +3,11 @@
 An implementation of the classic 2048 game.
 
 ## Table of Contents
-- [Features](#features)
 - [Getting Started](#getting-started)
 - [Tutorial](#tutorial)
 - [Contacts](#contacts)
 - [To-Do List](#to-do-list)
 
-## Features
-
-List the key features of your 2048 game implementation here.
 
 ## Getting Started
 
