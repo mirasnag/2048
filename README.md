@@ -19,6 +19,8 @@ git clone https://github.com/mirasnag/2048.git
 cd 2048
 3. Open the `2048.html` file in your web browser to start playing the game.
 
+**Alternatively, play the game [here](https://mirasnag.github.io/2048/).**
+
 ## Tutorial
 
 Once you've opened the game, you can start playing right away. Here are the basic instructions for playing the 2048 game:
